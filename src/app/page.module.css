@@ -1,0 +1,99 @@
+.hide {
+    display: none;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.button {
+    color: white;
+    width: 55px;
+    font-size: 1.5em;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.titre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoContainerBox {
+    display: flex;
+    justify-content: center;
+}
+
+.infoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dateBox {
+    display: flex;
+    justify-content: center;
+}
+
+.dateBoxContainer {
+    display: block;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.headerOffCanvas {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(66, 66, 66);
+}
+
+.buttonOffCanvas {
+    font-size: 1.5em;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.offcanvas {
+    width: 345px;
+    height: 100vh;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.selectBox {
+    display: flex;
+    justify-content: center;
+}
+
+.selectBalise{
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    border: none;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+
+.iconBox {
+    padding-top: 5vw;
+    display: flex;
+    justify-content: center;
+}

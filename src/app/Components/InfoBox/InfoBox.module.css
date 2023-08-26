@@ -1,0 +1,22 @@
+.box {
+    background-color: rgb(67, 65, 75);
+    margin: 5px 5px 0 0;
+    padding: 10px;
+    min-width: 10vw;
+    width: 130px;
+}
+
+.titre {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.infoBox {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    font-size: 2em;
+    font-weight: 300;
+}

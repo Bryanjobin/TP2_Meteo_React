@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: rgb(29, 29, 34);
+}
+
+main {
+    margin: 20px;
+}
